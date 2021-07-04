@@ -12,6 +12,9 @@ X11LIB = /usr/lib
 
 PKG_CONFIG = pkg-config
 
+# flags
+CFLAGS = -O3
+
 # includes and libs
 INCS = -I$(X11INC) \
        `$(PKG_CONFIG) --cflags fontconfig` \
