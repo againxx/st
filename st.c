@@ -704,7 +704,7 @@ execsh(char *cmd, char **args)
 	setenv("SHELL", sh, 1);
 	setenv("HOME", pw->pw_dir, 1);
 	setenv("TERM", termname, 1);
-	setenv("ZSH_TMUX_AUTOCONNECT", "false", 1);
+	setenv("ZDOTDIR", "/home/ustc-1314/.config/zsh-st", 1);
 
 	signal(SIGCHLD, SIG_DFL);
 	signal(SIGHUP, SIG_DFL);
