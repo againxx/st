@@ -9,7 +9,8 @@ static char *font = "SauceCodePro Nerd Font:size=13:antialias=true:autohint=true
 /* Spare fonts */
 static char *font2[] = {
     "PingFang SC:size=13:antialias=true:autohint=true",
-    "Noto Color Emoji:size=13:antialias=true:autohint=true"
+    "JoyPixels:size=13:antialias=true:autohint=true",
+    "Symbola:size=13:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
@@ -217,6 +218,10 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ MODKEY|ControlMask,   XK_k,           kscrollup,      {.i =  3} },
+	{ MODKEY|ControlMask,   XK_j,           kscrolldown,    {.i =  3} },
+	{ MODKEY|ControlMask,   XK_u,           kscrollup,      {.i = -1} },
+	{ MODKEY|ControlMask,   XK_d,           kscrolldown,    {.i = -1} },
 };
 
 /*
