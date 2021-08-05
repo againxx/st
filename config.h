@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SauceCodePro Nerd Font:size=13:antialias=true:autohint=true";
+static char *font = "SauceCodePro Nerd Font:size=11:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "Noto Color Emoji:size=9:antialias=true:autohint=true",
-    "PingFang SC:size=13:antialias=true:autohint=true"
+    "PingFang SC:size=11:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
@@ -134,11 +134,11 @@ static const char *colorname[] = {
     [12] = "#73d0ff", /* blue    */
     [13] = "#d4bfff", /* magenta */
     [14] = "#95e6cb", /* cyan    */
-    [15] = "#ffffff", /* white   */
+    [15] = "#fafafa", /* white   */
 
     /* special colors */
-    [256] = "#212733", /* background */
-    [257] = "#d9d7ce", /* foreground */
+    [256] = "#1f2430", /* background */
+    [257] = "#cbccc6", /* foreground */
 };
 
 /*

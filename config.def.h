@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SauceCodePro Nerd Font:size=13:antialias=true:autohint=true";
+static char *font = "SauceCodePro Nerd Font:size=11:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "Noto Color Emoji:size=9:antialias=true:autohint=true",
-    "PingFang SC:size=13:antialias=true:autohint=true"
+    "PingFang SC:size=11:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
